@@ -39,21 +39,25 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             transition: transform 0.2s;
+            text-align: center;
         }
         .slide-item:hover {
             transform: scale(1.03);
         }
-        .slide-item img {
-            width: 100%;
-            height: auto;
+        .slide-item a {
             display: block;
+            text-decoration: none;
+            color: #333;
+            padding: 20px;
+        }
+        .slide-item a:hover {
+            background-color: #f0f0f0;
         }
         .slide-item h3 {
             margin: 0;
             padding: 10px;
             background: #333;
             color: #fff;
-            text-align: center;
         }
         footer {
             text-align: center;
@@ -73,29 +77,32 @@
 <body>
     <header>
         <h1>3D Computer Art Slides</h1>
-        <p>The class slides by Leilei Xia.</p>
+        <p>Explore my collection of 3D art creations.</p>
     </header>
 
     <main>
         <ul class="slide-list">
             <li class="slide-item">
-                <a href="1.html"></a>
-                <h3>Slide 1: Abstract Geometry</h3>
+                <a href="1.html">
+                    <h3>Slide 1</h3>
+                </a>
             </li>
             <li class="slide-item">
-                <img src="slide2.jpg" alt="Slide 2">
-                <h3>Slide 2: Futuristic Cityscape</h3>
+                <a href="2.html">
+                    <h3>Slide 2</h3>
+                </a>
             </li>
             <li class="slide-item">
-                <img src="slide3.jpg" alt="Slide 3">
-                <h3>Slide 3: Organic Sculptures</h3>
+                <a href="3.html">
+                    <h3>Slide 3</h3>
+                </a>
             </li>
             <!-- Add more slides here -->
         </ul>
     </main>
 
     <footer>
-        <p>&copy; 2025 Leilei Xia. All rights reserved. | <a href="mailto:your-email@example.com">Contact Me</a></p>
+        <p>&copy; 2025 Your Name. All rights reserved. | <a href="mailto:your-email@example.com">Contact Me</a></p>
     </footer>
 </body>
 </html>
